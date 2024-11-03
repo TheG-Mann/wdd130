@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dry Oar Boating</h1>
+        <p>Your adventure starts here!</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We offer the best whitewater rafting experiences.</p>
+            <img src="images/rafting.jpg" alt="Whitewater Rafting">
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Guided Rafting Tours</li>
+                <li>Equipment Rentals</li>
+                <li>Safety Training</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at info@dryoarboating.com</p>
+    </footer>
+ </body>
+</html>
