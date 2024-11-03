@@ -3,30 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <title>Event Name</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Dry Oar Boating</h1>
-        <p>Your adventure starts here!</p>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Page 2</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>We offer the best whitewater rafting experiences.</p>
-            <img src="images/rafting.jpg" alt="Whitewater Rafting">
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
+        </div>
+        <section id="hero-msg">
+            <h4>Welcome to the Adventure</h4>
+            <button>Join Us</button>
         </section>
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Guided Rafting Tours</li>
-                <li>Equipment Rentals</li>
-                <li>Safety Training</li>
-            </ul>
+    </div>
+    <main class="home-grid">
+        <section class="rivers-card">
+            <img class="card-img" src="images/rivers.jpg" alt="river in forest">
+            <img class="icon" src="images/river_icon.png" alt="river icon">
+            <h2>Rivers</h2>
+        </section>
+        <section class="camping-card">
+            <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
+            <img class="icon" src="images/fire_icon.png" alt="fire icon">
+            <h2>Camping</h2>
+        </section>
+        <section class="rapids-card">
+            <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+            <img class="icon" src="images/oars.png" alt="oars icon">
+            <h2>Rapids</h2>
+        </section>
+        <div id="background"></div>
+        <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+        <section class="msg">
+            <h2>More Than Just The Thrill</h2>
+            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+            <a class="join" href="rivers.html">Join Us</a>
         </section>
     </main>
+    <section id="home">
+        <h1 class="home-title">Welcome to [Event Name]</h1>
+        <p>Join us for an exciting event on [Event Date] at [Event Location].</p>
+    </section>
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>Learn more about the purpose, history, and organizers of the event.</p>
+    </section>
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <p>Check out the detailed schedule of activities and sessions.</p>
+    </section>
+    <section id="speakers">
+        <h2>Speakers/Performers</h2>
+        <p>Meet our amazing lineup of speakers and performers.</p>
+    </section>
+    <section id="tickets">
+        <h2>Get Your Tickets</h2>
+        <p>Find out how to purchase tickets or register for the event.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
     <footer>
-        <p>Contact us at info@dryoarboating.com</p>
+        <p>Dry Oar © 20XX - Your First and Last Name Here</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
  </body>
 </html>
