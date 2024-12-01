@@ -29,7 +29,7 @@ body {
     font-size: 18px;
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    background-color: #f0f0f0;
+    background-color: #3a3a3a;
     text-align: left;
 }
 
@@ -87,7 +87,7 @@ nav ul li a:hover {
 /* Main content styling */
 main {
     padding: 20px;
-    background-color: white;
+    background-color: rgb(59, 59, 59);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
