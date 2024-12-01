@@ -4,70 +4,6 @@
     <meta charset="utf-8">
     <title>Retro Game Resale</title>
     <link type="text/css" rel="stylesheet" href="styles/site-plan.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-        }
-        header {
-            background-color: #480ca8;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        main {
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            margin: 20px auto;
-            width: 80%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #480ca8;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        hr {
-            border: 1px solid #480ca8;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-        .colors table {
-            width: 100%;
-            text-align: center;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        .colors th, .colors td {
-            border: 1px solid #333;
-            padding: 10px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -95,7 +31,7 @@
         <hr>
         <h2>Branding</h2>
         <h3>Website Logo</h3>
-        <img src="https://via.placeholder.com/300x100.png?text=Retro+Game+Resale+Logo" alt="Retro Game Resale Logo">
+        <img src="site-plan.png" alt="Retro Game Resale Logo">
         
         <hr>
         <h2>Style Guide</h2>
@@ -116,23 +52,31 @@
         
         <h3>Buy & Sell Marketplace</h3>
         <p>Our Buy & Sell Marketplace is designed to connect buyers and sellers of classic video games and consoles. This platform provides a user-friendly interface that allows enthusiasts to list their items for sale, browse through listings, and find rare gems to add to their collections. Each listing includes detailed descriptions, images, and pricing information to ensure transparency and trust.</p>
-        <img src="https://www.example.com/marketplace-image1.jpg" alt="Marketplace Image 1">
-        <img src="https://www.example.com/marketplace-image2.jpg" alt="Marketplace Image 2">
         
         <h3>Game Reviews & Ratings</h3>
         <p>Our Game Reviews & Ratings section provides in-depth analyses of classic games. Our team of experts and community members contribute reviews that cover gameplay, graphics, storyline, and overall experience. This section helps users make informed decisions about which games to add to their collection.</p>
-        <img src="https://www.example.com/reviews-image1.jpg" alt="Reviews Image 1">
-        <img src="https://www.example.com/reviews-image2.jpg" alt="Reviews Image 2">
         
         <h3>Collector's Corner</h3>
         <p>The Collector's Corner is a special section dedicated to the community of retro gaming collectors. Here, members can share their collections, discuss rare finds, and seek advice on preservation and valuation. This section also features articles on the history of gaming and interviews with prominent collectors.</p>
-        <img src="https://www.example.com/collectors-image1.jpg" alt="Collectors Image 1">
-        <img src="https://www.example.com/collectors-image2.jpg" alt="Collectors Image 2">
+        
+        <hr>
+        <h2>Images</h2>
+        <p>Here are some example images for each section of the website:</p>
+        
+        <h3>Buy & Sell Marketplace</h3>
+        <img src="images.jpg" alt="Marketplace Image 1">
+        
+        <h3>Game Reviews & Ratings</h3>
+        <img src="company-rating.png" alt="Reviews Image 1">
+        <img src="images/reviews2.jpg" alt="Reviews Image 2">
+        
+        <h3>Collector's Corner</h3>
+        <img src="vintage-game-collection-stockcake.jpg" alt="Collectors Image 1">
+        <img src="images/collectors2.jpg" alt="Collectors Image 2">
         
     </main>
     <footer>
         <p>&copy; 2024 Retro Game Resale. All rights reserved.</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
     </footer>
  </body>
 </html>
