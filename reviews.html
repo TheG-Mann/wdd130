@@ -54,6 +54,20 @@
             border-radius: 8px;
             margin-bottom: 10px;
         }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -73,9 +87,24 @@
     <main>
         <hr>
         <h2>Game Reviews & Ratings</h2>
-        <p>Our Game Reviews & Ratings section provides in-depth analyses of classic games. Our team of experts and community members contribute reviews that cover gameplay, graphics, storyline, and overall experience. This section helps users make informed decisions about which games to add to their collection.</p>
-        <img src="https://www.example.com/reviews-image1.jpg" alt="Reviews Image 1">
-        <img src="https://www.example.com/reviews-image2.jpg" alt="Reviews Image 2">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="reviews-image1.jpg" alt="Reviews Image 1">
+                <p>Review 1: In-depth analysis of classic game 1.</p>
+            </div>
+            <div class="grid-item">
+                <img src="reviews-image2.jpg" alt="Reviews Image 2">
+                <p>Review 2: In-depth analysis of classic game 2.</p>
+            </div>
+            <div class="grid-item">
+                <img src="reviews-image3.jpg" alt="Reviews Image 3">
+                <p>Review 3: In-depth analysis of classic game 3.</p>
+            </div>
+            <div class="grid-item">
+                <img src="reviews-image4.jpg" alt="Reviews Image 4">
+                <p>Review 4: In-depth analysis of classic game 4.</p>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Retro Game Resale. All rights reserved.</p>
